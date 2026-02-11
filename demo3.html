@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPL Fitness Hub - Friendly & Local</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
+
+        body {
+            font-family: 'Nunito', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-orange-50 text-gray-800">
+
+    <!-- Top Bar -->
+    <div class="bg-orange-500 text-white py-2 text-center text-sm font-semibold">
+        Open Daily 6:00 AM - 10:00 PM | Call Us: +91 97666 98739
+    </div>
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50 rounded-b-3xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex items-center gap-2">
+                    <div class="bg-orange-100 p-2 rounded-full">
+                        <svg class="w-8 h-8 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+                            </path>
+                        </svg>
+                    </div>
+                    <span class="text-2xl font-extrabold text-gray-800 tracking-tight">SPL Fitness Hub</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-6 font-bold text-gray-600">
+                    <a href="#services" class="hover:text-orange-500 transition">Classes</a>
+                    <a href="#about" class="hover:text-orange-500 transition">Our Story</a>
+                    <a href="#reviews" class="hover:text-orange-500 transition">Reviews</a>
+                    <a href="#contact"
+                        class="bg-yellow-400 text-gray-900 px-6 py-2.5 rounded-full hover:bg-yellow-300 transition shadow-md transform hover:-translate-y-0.5">
+                        Get Started
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="py-12 md:py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white rounded-[3rem] shadow-xl overflow-hidden">
+                <div class="grid md:grid-cols-2">
+                    <div class="p-10 md:p-16 flex flex-col justify-center">
+                        <span
+                            class="inline-block bg-orange-100 text-orange-600 px-4 py-1 rounded-full text-sm font-bold mb-4 w-max">Since
+                            2015 in Nagpur</span>
+                        <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 leading-tight">
+                            Your Neighborhood <br /><span class="text-orange-500">Fitness Community</span>
+                        </h1>
+                        <p class="text-lg text-gray-600 mb-8">
+                            Welcome to SPL Fitness Hub! We're not just a gym; we're a family. Join us in Hajaripahad for
+                            fun, effective workouts that fit your lifestyle.
+                        </p>
+                        <div class="flex flex-col sm:flex-row gap-4">
+                            <a href="#contact"
+                                class="bg-orange-500 text-white px-8 py-3 rounded-full font-bold text-center hover:bg-orange-600 transition shadow-lg shadow-orange-200">
+                                Join the Family
+                            </a>
+                            <a href="tel:+919766698739"
+                                class="bg-white text-gray-700 border-2 border-gray-100 px-8 py-3 rounded-full font-bold text-center hover:border-orange-200 hover:text-orange-500 transition">
+                                Call Us
+                            </a>
+                        </div>
+                    </div>
+                    <div class="relative h-64 md:h-auto">
+                        <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+                            alt="Group Training" class="absolute inset-0 w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features / Services -->
+    <section id="services" class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-3xl font-extrabold text-gray-800 mb-4">Something for Everyone</h2>
+                <p class="text-gray-600">Whether you love lifting heavy or dancing to Zumba, we've got the perfect spot
+                    for you.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Personal Training -->
+                <div
+                    class="bg-white p-8 rounded-3xl shadow-lg hover:shadow-xl transition transform hover:-translate-y-1">
+                    <div class="text-4xl mb-4">🏋️‍♂️</div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Personal Training</h3>
+                    <p class="text-gray-600 mb-4">Get a certified buddy to guide you through every rep. Perfect for
+                        beginners!</p>
+                </div>
+
+                <!-- Group Classes -->
+                <div
+                    class="bg-white p-8 rounded-3xl shadow-lg hover:shadow-xl transition transform hover:-translate-y-1 border-b-4 border-yellow-400">
+                    <div class="text-4xl mb-4">💃</div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Zumba & Aerobics</h3>
+                    <p class="text-gray-600 mb-4">Dance your way to fitness with our high-energy, super fun group
+                        classes.</p>
+                </div>
+
+                <!-- Wellness -->
+                <div
+                    class="bg-white p-8 rounded-3xl shadow-lg hover:shadow-xl transition transform hover:-translate-y-1">
+                    <div class="text-4xl mb-4">🧖‍♀️</div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Steam Bath</h3>
+                    <p class="text-gray-600 mb-4">Relax those muscles after a good workout with our clean steam
+                        facilities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About & Trust -->
+    <section id="about" class="py-16 bg-yellow-100 rounded-3xl mx-4 md:mx-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="relative">
+                    <div class="absolute -top-4 -left-4 w-full h-full bg-orange-200 rounded-3xl transform rotate-3">
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1599058945522-28d584b6f0ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+                        alt="Gym Owner"
+                        class="relative rounded-3xl shadow-lg w-full transform -rotate-2 hover:rotate-0 transition">
+                </div>
+                <div>
+                    <h2 class="text-3xl font-extrabold text-gray-800 mb-6">Local & Trusted Since 2015</h2>
+                    <p class="text-gray-700 mb-6 font-medium">
+                        Located right behind Vayusena Nagar, we've been helping our neighbors in Friends Colony stay fit
+                        for nearly a decade.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="bg-white p-4 rounded-xl shadow-sm">
+                            <p class="text-orange-500 font-extrabold text-xl">100%</p>
+                            <p class="text-sm text-gray-600 font-bold">Certified Trainers</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-xl shadow-sm">
+                            <p class="text-orange-500 font-extrabold text-xl">Unisex</p>
+                            <p class="text-sm text-gray-600 font-bold">Safe Environment</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="reviews" class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-extrabold text-center text-gray-800 mb-12">What Our Neighbors Say</h2>
+            <div class="flex flex-col md:flex-row gap-6">
+                <div class="bg-white p-6 rounded-2xl shadow border border-gray-100 flex-1">
+                    <p class="text-gray-600 italic mb-4">"Absolutely love the vibe here. No judgment, just good workouts
+                        and friendly people."</p>
+                    <div class="flex items-center gap-3">
+                        <div
+                            class="bg-orange-100 h-10 w-10 rounded-full flex items-center justify-center font-bold text-orange-600">
+                            RP</div>
+                        <div>
+                            <p class="font-bold text-gray-900">Rohan P.</p>
+                            <p class="text-xs text-gray-500">Member since 2018</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow border border-gray-100 flex-1">
+                    <p class="text-gray-600 italic mb-4">"The trainers actually care about your form. Plus the steam
+                        bath is amazing!"</p>
+                    <div class="flex items-center gap-3">
+                        <div
+                            class="bg-yellow-100 h-10 w-10 rounded-full flex items-center justify-center font-bold text-yellow-600">
+                            AK</div>
+                        <div>
+                            <p class="font-bold text-gray-900">Anjali K.</p>
+                            <p class="text-xs text-gray-500">Member since 2021</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & Contact -->
+    <section id="contact" class="py-16 bg-white">
+        <div class="max-w-4xl mx-auto px-4 text-center mb-12">
+            <h2 class="text-3xl font-extrabold text-gray-800 mb-4">Come Say Hi! 👋</h2>
+            <p class="text-gray-600">We're open 7 days a week.</p>
+        </div>
+
+        <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-8 items-start">
+            <div class="bg-orange-50 p-8 rounded-3xl">
+                <div class="space-y-6">
+                    <div class="flex items-start gap-4">
+                        <span class="text-2xl">📍</span>
+                        <p class="font-bold text-gray-700">Pioneer Green Vally, Opp. Afzal Bakery, behind Vayusena
+                            Nagar, Friends Colony, Hajaripahad, Nagpur - 440013</p>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <span class="text-2xl">📞</span>
+                        <p class="font-bold text-gray-700">+91 97666 98739</p>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <span class="text-2xl">⏰</span>
+                        <div>
+                            <p class="font-bold text-gray-700">Mon-Sat: 06:00 AM – 10:00 PM</p>
+                            <p class="font-bold text-gray-700">Sun: 08:00 AM – 12:30 PM & 05:30 PM – 10:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://maps.google.com" target="_blank"
+                    class="block w-full bg-white text-orange-500 border-2 border-orange-500 text-center font-bold py-3 rounded-xl mt-8 hover:bg-orange-50 transition">
+                    Get Directions
+                </a>
+            </div>
+
+            <div class="bg-gray-100 rounded-3xl overflow-hidden h-80 md:h-full relative shadow-inner">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.975877846506!2d79.02897637596956!3d21.15334968339943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c060017120c1%3A0xe67c06c5be4e3f8!2sSPL%20Fitness%20Hub!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 mt-12">
+        <div class="text-center">
+            <p class="opacity-75 font-bold">Made with ❤️ for Nagpur</p>
+            <p class="text-sm opacity-50 mt-2">&copy; 2024 SPL Fitness Hub</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
